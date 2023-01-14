@@ -1,0 +1,10 @@
+ .apifetch{
+    display: flex;
+    justify-content: space-around;
+} 
+@media screen and (max-width: 600px){
+    .apifetch{
+        align-items: flex-start;
+        flex-direction:column;
+    }
+}

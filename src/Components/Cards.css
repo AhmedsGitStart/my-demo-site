@@ -1,0 +1,26 @@
+.skillscard{
+    display: flex;
+}
+.jsimage{
+    width: 100px;
+}
+#heading-of-skills{
+    text-align: center;
+    color: white;
+}
+.first-line-skill{
+    display: flex;
+    justify-content: space-around;
+}
+.second-line-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px ){
+    .first-line-skill{
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,14 @@
+.myname {
+    font-family: cursive;
+}
+.all-links{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.699);
+}
+.all-links LinkScroll{
+    text-decoration: none;
+}
+.all-links:hover{
+    color: white;
+}
+
